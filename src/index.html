@@ -10,10 +10,35 @@
       href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Heebo:wght@300&family=Open+Sans:ital@1&family=Rubik&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <div class="container">
-      <h1 class="text-3xl text-regal-blue font-bold font-open">Hello world!</h1>
-    </div>
+    <header class="bg-black py-8 font-gemunu text-gray-300 uppercase">
+      <div class="container flex items-center justify-between">
+        <a
+          href="/"
+          class="uppercase text-2xl p-4 text-center font-bold from-purple-600 via-pink-600 to-white bg-gradient-to-r bg-clip-text text-transparent"
+          >Giga</a
+        >
+        <nav class="flex items-center justify-center gap-5">
+          <a href="movies">Movies</a>
+          <a href="celebrities">Celebrities</a>
+          <a href="blog">Blog</a>
+          <a href="news">News</a>
+          <a href="about">About</a>
+        </nav>
+        <div class="flex items-center justify-center gap-10">
+          <i class="fa-solid fa-magnifying-glass border-r-4 p-2"> </i>
+          <a href="/login">Login</a>
+          <a href="signup" class="bg-pink-600 p-2">Signup</a>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
